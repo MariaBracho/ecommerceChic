@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "productName": "camisa",
+      "price": "15",
+      "productImg": "https://i.pinimg.com/736x/d9/04/01/d90401703b61219c3f0ba5ae5c4392b6.jpg",
+      "id": 1
+    },
+    {
+      "productName": "sueter",
+      "price": "20",
+      "productImg": "https://i.pinimg.com/564x/a2/f2/db/a2f2dbb5487c4402e509fc250ebc7515.jpg",
+      "id": 2
+    },
+    {
+      "productName": "falda y top",
+      "price": "30",
+      "productImg": "https://i.pinimg.com/564x/49/dd/e4/49dde40383cdc0d198a62d27d6090915.jpg",
+      "id": 3
+    },
+    {
+      "productName": "falda con cuadritos",
+      "price": "15",
+      "productImg": "https://i.pinimg.com/564x/47/c8/25/47c82517f391de98a460f5b86a891604.jpg",
+      "id": 4
+    },
+    {
+      "productName": "vestido",
+      "price": "15",
+      "productImg": "https://i.pinimg.com/564x/e2/b8/85/e2b88527fd1a016e062dbf7e9b6da9a6.jpg",
+      "id": 5
+    }
+  ],
+  "shoppingCard": [
+    {
+      "productName": "sueter",
+      "price": "20",
+      "productImg": "https://i.pinimg.com/564x/a2/f2/db/a2f2dbb5487c4402e509fc250ebc7515.jpg",
+      "id": 2
+    },
+    {
+      "productName": "vestido",
+      "price": "15",
+      "productImg": "https://i.pinimg.com/564x/e2/b8/85/e2b88527fd1a016e062dbf7e9b6da9a6.jpg",
+      "id": 3
+    },
+    {
+      "productName": "falda con cuadritos",
+      "price": "15",
+      "productImg": "https://i.pinimg.com/564x/47/c8/25/47c82517f391de98a460f5b86a891604.jpg",
+      "id": 4
+    },
+    {
+      "productName": "falda y top",
+      "price": "30",
+      "productImg": "https://i.pinimg.com/564x/49/dd/e4/49dde40383cdc0d198a62d27d6090915.jpg",
+      "id": 5
+    },
+    {
+      "productName": "camisa",
+      "price": "15",
+      "productImg": "https://i.pinimg.com/736x/d9/04/01/d90401703b61219c3f0ba5ae5c4392b6.jpg",
+      "id": 6
+    }
+  ]
+}
