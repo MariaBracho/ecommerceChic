@@ -1,5 +1,7 @@
 # Ecommerce chic
 
+![](./src/assets/ecommerce.PNG)
+
 ## Ejecutando el proyecto ⚙️
 
 ```
