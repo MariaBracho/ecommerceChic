@@ -1,11 +1,17 @@
+import { fetchProductGroup } from "../../features/product/thunk";
 import { componentType } from "../../shared/types/GeneralTypes";
+
+// components
 import ProductInputSearch from "../../components/ProductInputSearch/index";
 import ProductGroup from "../../components/ProductGroup";
-import { HomeContainer } from "./style";
+
+// hooks
 import { useAppDispatch } from "../../hooks/useAppDispatch";
-import { useAppSelector } from "../../hooks/useAppSelector";
 import { useEffect, useState } from "react";
-import { fetchProductGroup } from "../../features/product/thunk";
+import { useAppSelector } from "../../hooks/useAppSelector";
+
+// style
+import { HomeContainer } from "./style";
 
 export default function Home(): componentType {
   const { products } = useAppSelector((state) => state.products);
