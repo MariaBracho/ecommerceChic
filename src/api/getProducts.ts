@@ -1,5 +1,5 @@
-import { ProductType } from "../shared/interfaces/FetchProduct";
-import { BASE_URL } from "../shared/constants/baseURL";
+import { ProductType } from "../models/FetchProduct";
+import { BASE_URL } from "../utils/constants/baseURL";
 
 export default async function getProducts(): Promise<ProductType[]> {
   const response = await fetch(`${BASE_URL}/products`);

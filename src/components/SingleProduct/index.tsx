@@ -1,4 +1,4 @@
-import { componentType } from "@shared/types/GeneralTypes";
+import { componentType } from "../../utils/types/GeneralTypes";
 import {
   SingleProductContainer,
   ProductImg,
@@ -10,8 +10,8 @@ import {
   AddIcon,
 } from "./style";
 import { useAppDispatch } from "../../hooks/useAppDispatch";
-import { addProduct } from "../../features/product/thunk";
-import { ShoppingCartTypes } from "../../shared/interfaces/FetchProduct";
+import { addProduct } from "../../Redux/product/thunk";
+import { ShoppingCartTypes } from "../../models/FetchProduct";
 
 interface SingleProductProps {
   name: string;

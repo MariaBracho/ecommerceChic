@@ -1,4 +1,4 @@
-import { FetchStatus } from "@shared/enums/fetchStatus";
+import { FetchStatus } from "../utils/enums/fetchStatus";
 
 export interface ProductType {
   productName: string;

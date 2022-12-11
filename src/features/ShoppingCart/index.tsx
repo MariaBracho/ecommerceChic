@@ -1,9 +1,9 @@
-import { componentType } from "../../shared/types/GeneralTypes";
+import { componentType } from "../../utils/types/GeneralTypes";
 import ProductCartGroup from "../../components/ProductCartGroup";
 import { useAppSelector } from "../../hooks/useAppSelector";
 import { useAppDispatch } from "../../hooks/useAppDispatch";
 import { useEffect } from "react";
-import { fetchShoppingCart } from "../../features/product/thunk";
+import { fetchShoppingCart } from "../../Redux/product/thunk";
 
 export default function ShoppingCart(): componentType {
   const { cartList } = useAppSelector((state) => state.products);

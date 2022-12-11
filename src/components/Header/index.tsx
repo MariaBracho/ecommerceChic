@@ -1,4 +1,4 @@
-import { componentType } from "@shared/types/GeneralTypes";
+import { componentType } from "../../utils/types/GeneralTypes";
 import { HeaderContainer, Title, ProfileIcon } from "./style";
 
 export default function Header(): componentType {

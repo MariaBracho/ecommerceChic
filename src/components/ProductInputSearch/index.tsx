@@ -1,4 +1,4 @@
-import { componentType } from "@shared/types/GeneralTypes";
+import { componentType } from "../../utils/types/GeneralTypes";
 import { InputSearchContainer, Input, IconContainer, Icon } from "./style";
 
 interface SearchProps {

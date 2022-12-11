@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { NAVBAR_ROUTER } from "../shared/constants/navBarRoutes";
+import { NAVBAR_ROUTER } from "../utils/constants/navBarRoutes";
 
 // components
-import Home from "../pages/Home";
+import Home from "../features/Home";
 import Layout from "../components/Layout";
-import ShoppingCart from "../pages/ShoppingCart";
+import ShoppingCart from "../features/ShoppingCart";
 
 export default function Navigation(): JSX.Element {
   return (

@@ -1,5 +1,5 @@
-import { ShoppingCartTypes } from "../shared/interfaces/FetchProduct";
-import { BASE_URL } from "../shared/constants/baseURL";
+import { ShoppingCartTypes } from "../models/FetchProduct";
+import { BASE_URL } from "../utils/constants/baseURL";
 
 export default async function getShoppingCart(): Promise<ShoppingCartTypes[]> {
   const response = await fetch(`${BASE_URL}/shoppingCard`);

@@ -1,7 +1,7 @@
-import { componentType } from "../../shared/types/GeneralTypes";
+import { componentType } from "../../utils/types/GeneralTypes";
 import { ProductGroupContainer } from "./style";
 import SingleProduct from "../../components/SingleProduct";
-import { ProductType } from "../../shared/interfaces/FetchProduct";
+import { ProductType } from "../../models/FetchProduct";
 
 export default function ProductGroup({
   products,

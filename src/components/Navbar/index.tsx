@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { componentType } from "../../shared/types/GeneralTypes";
-import { NAVBAR_ROUTER } from "../../shared/constants/navBarRoutes";
+import { componentType } from "../../utils/types/GeneralTypes";
+import { NAVBAR_ROUTER } from "../../utils/constants/navBarRoutes";
 import {
   NavbarContainer,
   HomeIcon,

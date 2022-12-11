@@ -1,5 +1,5 @@
-import { BASE_URL } from "../shared/constants/baseURL";
-import { ShoppingCartTypes } from "@shared/interfaces/FetchProduct";
+import { BASE_URL } from "../utils/constants/baseURL";
+import { ShoppingCartTypes } from "../models/FetchProduct";
 
 export default async function addProducts({
   productName,

@@ -1,5 +1,5 @@
-import { ShoppingCartTypes } from "../../shared/interfaces/FetchProduct";
-import { componentType } from "../../shared/types/GeneralTypes";
+import { ShoppingCartTypes } from "../../models/FetchProduct";
+import { componentType } from "../../utils/types/GeneralTypes";
 import {
   ProductCartContainer,
   ProductNameAndPriceContainer,

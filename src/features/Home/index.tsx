@@ -1,5 +1,5 @@
-import { fetchProductGroup } from "../../features/product/thunk";
-import { componentType } from "../../shared/types/GeneralTypes";
+import { fetchProductGroup } from "../../Redux/product/thunk";
+import { componentType } from "../../utils/types/GeneralTypes";
 
 // components
 import ProductInputSearch from "../../components/ProductInputSearch/index";

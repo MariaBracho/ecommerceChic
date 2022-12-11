@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { InitialStateTypes } from "../../shared/interfaces/FetchProduct";
+import { InitialStateTypes } from "../../models/FetchProduct";
 import { fetchProductGroup, addProduct, fetchShoppingCart } from "./thunk";
-import { FetchStatus } from "../../shared/enums/fetchStatus";
+import { FetchStatus } from "../../utils/enums/fetchStatus";
 
 const initialState: InitialStateTypes = {
   status: FetchStatus.IDLE,

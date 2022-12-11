@@ -1,6 +1,6 @@
-import { componentType } from "../../shared/types/GeneralTypes";
+import { componentType } from "../../utils/types/GeneralTypes";
 import SingleProductCart from "../../components/SingleProductCart";
-import { ShoppingCartTypes } from "../../shared/interfaces/FetchProduct";
+import { ShoppingCartTypes } from "../../models/FetchProduct";
 import { ShoppingCartContainer } from "./style";
 
 export default function ProductCartGroup({

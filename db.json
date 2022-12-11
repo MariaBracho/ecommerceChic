@@ -61,6 +61,12 @@
       "price": "15",
       "productImg": "https://i.pinimg.com/736x/d9/04/01/d90401703b61219c3f0ba5ae5c4392b6.jpg",
       "id": 6
+    },
+    {
+      "productName": "camisa",
+      "price": "15",
+      "productImg": "https://i.pinimg.com/736x/d9/04/01/d90401703b61219c3f0ba5ae5c4392b6.jpg",
+      "id": 7
     }
   ]
 }

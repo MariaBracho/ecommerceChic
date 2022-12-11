@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import getProducts from "../../../api/getProducts";
 import addProducts from "../../../api/addProduct";
 import getShoppingCart from "../../../api/getShoppingCart";
-import { ShoppingCartTypes } from "../../../shared/interfaces/FetchProduct";
+import { ShoppingCartTypes } from "../../../models/FetchProduct";
 
 export const fetchProductGroup = createAsyncThunk(
   "product/getProductGroup",
